@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="PartnerSelect.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+ <title>Partner Search</title>
+
+     <!-- Bootstrap CSS -->    
+    <link href="Styles/bootstrap.min.css" rel="stylesheet"/>
+    <!-- bootstrap theme -->
+    <link href="Styles/bootstrap-theme.css" rel="stylesheet" />
+    <!--external css-->
+    <link href="Styles/site.css" rel="stylesheet" type="text/css" />
+    <!-- font icon -->
+    <link href="Styles/elegant-icons-style.css" rel="stylesheet" />
+    <link href="Styles/font-awesome.min.css" rel="stylesheet" />
+    <!-- Custom styles -->
+    <link href="Styles/style.css" rel="stylesheet" />
+    <link href="Styles/style-responsive.css" rel="stylesheet" />
+
+    <!-- javascripts -->
+    <script src="Scripts/jquery.js" type="text/javascript"></script>
+    <script src="Scripts/bootstrap.min.js" type="text/javascript"></script>
+    <!-- nice scroll -->
+    <script src="Scripts/jquery.scrollTo.min.js" type="text/javascript"></script>
+    <script src="Scripts/jquery.nicescroll.js" type="text/javascript"></script>
+    <!-- gritter -->
+   
+    <!-- custom gritter script for this page only-->
+    <script src="Scripts/gritter.js" type="text/javascript"></script>
+    <!--custome script for all page-->
+    <script src="Scripts/scripts.js" type="text/javascript"></script>
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+     <!-- container section start -->
+  <section id="container" class="">
+      
+      <!--header start-->
+      <header class="header dark-bg">
+            <div class="toggle-nav">
+                <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"><i class="icon_menu"></i></div>
+            </div>
+
+            <!--logo start-->
+            <a href="Search.aspx" class="logo">Partner <span class="lite">Search</span></a>
+            <!--logo end-->
+
+            <div class="top-nav notification-row">                
+                <!-- notificatoin dropdown start-->
+                <ul class="nav pull-right top-menu">
+                    
+                    <!-- alert notification start-->
+                    <li id="alert_notificatoin_bar" class="dropdown">
+                        <a class="dropdown-toggle" href="favourites.aspx">
+
+                            <i class="icon-star-l"></i>
+                            <span id="lblFavouritesCount" runat="server" class="badge bg-important">0</span>
+                        </a>
+                    </li>
+                    <!-- alert notification end-->
+
+                </ul>
+                <!-- notificatoin dropdown end-->
+            </div>
+
+      </header>      
+      <!--header end-->
+
+      <asp:ContentPlaceHolder ID="SideNavigation" runat="server"/>
+      
+
+    <!--main content start-->
+    <section id="main-content">
+        <section class="wrapper">
+              
+            <!-- Breadcrumb -->
+            <asp:ContentPlaceHolder ID="BreadCrumb" runat="server"/>						
+			
+            <!-- Main Content -->
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+
+        </section>
+    </section>
+    <!--main content end-->
+
+</body>
+</html>

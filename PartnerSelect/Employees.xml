@@ -1,0 +1,49 @@
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xml:base="http://APP-SAP-PRG.FRESHFIELDSBRUCKHAUS.COM:8103/sap/opu/odata/sap/ZHR_INSIDERLIST_REPORT_SRV/">
+	<id>http://APP-SAP-PRG.FRESHFIELDSBRUCKHAUS.COM:8103/sap/opu/odata/sap/ZHR_INSIDERLIST_REPORT_SRV/EmployeeSet</id>
+	<title type="text">EmployeeSet</title>
+	<updated>2016-06-24T14:32:04Z</updated>
+	<author>
+		<name/>
+	</author>
+	<link href="EmployeeSet" rel="self" title="EmployeeSet"/>
+	<entry>
+		<id>http://APP-SAP-PRG.FRESHFIELDSBRUCKHAUS.COM:8103/sap/opu/odata/sap/ZHR_INSIDERLIST_REPORT_SRV/EmployeeSet(EmployeeId='00001155',BeginDate=datetime'2015-01-01T00%3A00%3A00',EndDate=datetime'2015-12-31T00%3A00%3A00')</id>
+		<title type="text">EmployeeSet(EmployeeId='00001155',BeginDate=datetime'2015-01-01T00%3A00%3A00',EndDate=datetime'2015-12-31T00%3A00%3A00')</title>
+		<updated>2016-06-24T14:32:04Z</updated>
+		<category term="ZHR_INSIDERLIST_REPORT_SRV.Employee" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme"/>
+		<link href="EmployeeSet(EmployeeId='00001155',BeginDate=datetime'2015-01-01T00%3A00%3A00',EndDate=datetime'2015-12-31T00%3A00%3A00')" rel="self" title="Employee"/>
+		<link href="EmployeeSet(EmployeeId='00001155',BeginDate=datetime'2015-01-01T00%3A00%3A00',EndDate=datetime'2015-12-31T00%3A00%3A00')/ToPersonalData" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/ToPersonalData" type="application/atom+xml;type=feed" title="ToPersonalData">
+			<m:inline>
+				<feed xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xml:base="http://APP-SAP-PRG.FRESHFIELDSBRUCKHAUS.COM:8103/sap/opu/odata/sap/ZHR_INSIDERLIST_REPORT_SRV/">
+					<id>http://APP-SAP-PRG.FRESHFIELDSBRUCKHAUS.COM:8103/sap/opu/odata/sap/ZHR_INSIDERLIST_REPORT_SRV/EmployeeSet(EmployeeId='00001155',BeginDate=datetime'2015-01-01T00%3A00%3A00',EndDate=datetime'2015-12-31T00%3A00%3A00')/ToPersonalData</id>
+					<title type="text">PersonalDataSet</title>
+					<updated>2016-06-24T14:32:04Z</updated>
+					<author>
+						<name/>
+					</author>
+					<link href="EmployeeSet(EmployeeId='00001155',BeginDate=datetime'2015-01-01T00%3A00%3A00',EndDate=datetime'2015-12-31T00%3A00%3A00')/ToPersonalData" rel="self" title="PersonalDataSet"/>
+				</feed>
+			</m:inline>
+		</link>
+		<link href="EmployeeSet(EmployeeId='00001155',BeginDate=datetime'2015-01-01T00%3A00%3A00',EndDate=datetime'2015-12-31T00%3A00%3A00')/ToAddress" rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/ToAddress" type="application/atom+xml;type=feed" title="ToAddress">
+			<m:inline>
+				<feed xmlns="http://www.w3.org/2005/Atom" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xml:base="http://APP-SAP-PRG.FRESHFIELDSBRUCKHAUS.COM:8103/sap/opu/odata/sap/ZHR_INSIDERLIST_REPORT_SRV/">
+					<id>http://APP-SAP-PRG.FRESHFIELDSBRUCKHAUS.COM:8103/sap/opu/odata/sap/ZHR_INSIDERLIST_REPORT_SRV/EmployeeSet(EmployeeId='00001155',BeginDate=datetime'2015-01-01T00%3A00%3A00',EndDate=datetime'2015-12-31T00%3A00%3A00')/ToAddress</id>
+					<title type="text">AddressSet</title>
+					<updated>2016-06-24T14:32:04Z</updated>
+					<author>
+						<name/>
+					</author>
+					<link href="EmployeeSet(EmployeeId='00001155',BeginDate=datetime'2015-01-01T00%3A00%3A00',EndDate=datetime'2015-12-31T00%3A00%3A00')/ToAddress" rel="self" title="AddressSet"/>
+				</feed>
+			</m:inline>
+		</link>
+		<content type="application/xml">
+			<m:properties xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices">
+				<d:EmployeeId>00001155</d:EmployeeId>
+				<d:BeginDate>2015-01-01T00:00:00</d:BeginDate>
+				<d:EndDate>2015-12-31T00:00:00</d:EndDate>
+			</m:properties>
+		</content>
+	</entry>
+</feed>
